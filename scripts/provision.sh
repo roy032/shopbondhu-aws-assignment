@@ -3,7 +3,7 @@
 # Run ONLY with your own AWS account configured (`aws configure`). The NAT gateway
 # and Elastic IP cost money while they exist: run scripts/cleanup.sh when finished.
 set -euo pipefail
-REGION="${AWS_REGION:-ap-southeast-1}"
+REGION="${AWS_REGION:-ap-southeast-2}"
 MYIP="$(curl -s https://checkip.amazonaws.com)/32"
 tag() { echo "ResourceType=$1,Tags=[{Key=Name,Value=$2}]"; }
 
