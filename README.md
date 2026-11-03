@@ -1,8 +1,14 @@
 # ShopBondhu: Launch Day (Module 3 assignment)
 
-> **DRAFT: not ready to submit.** The AWS resources have not been created yet, so there are no screenshots
-> and `commands.md` is empty. The assignment requires real console and terminal screenshots with the AWS
-> account name and region visible. Do not submit until those exist.
+> **Status (honest summary).** This submission is late and incomplete.
+>
+> - **Done and run on AWS (Sydney, ap-southeast-2):** the VPC, subnets, internet gateway, NAT gateway with Elastic IP,
+>   route tables, security groups and both EC2 instances were created with `scripts/provision.sh`, run from AWS CloudShell
+>   (Tasks 1 to 6). `screenshots/01-cloudshell-identity-and-clone.jpg` shows the account and the repo cloned in CloudShell.
+> - **Not completed:** the Nginx deployment and backend test (Tasks 7 to 9) were not verified, and no console screenshots of the
+>   resources were kept. The resources were later deleted to stop AWS charges, so they cannot be shown now.
+> - **Written parts (Task 9 explanation and Task 10 answers) are complete** below.
+> - The AWS region is Sydney because the account is on a plan limited to that region.
 
 ## Architecture
 
